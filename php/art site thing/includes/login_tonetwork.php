@@ -3,11 +3,11 @@
 if (isset($_POST['login'])) {
 	//RECAPTCHA by Google Information
 	
-	$secret = '6LdmEmkUAAAAAAlEiIya7SgqKc7E6oEt8zLltJ4I';
+	$secret = '';
 	$response = $_POST["g-recaptcha-response"];
 	$url = "https://www.google.com/recaptcha/api/siteverify";
 	$data = array(
-		'secret' => '6LdmEmkUAAAAAAlEiIya7SgqKc7E6oEt8zLltJ4I',
+		'secret' => '',
 		'response' => $_POST["g-recaptcha-response"]
 	);
 	

@@ -6,11 +6,11 @@ ini_set('display_errors', 1);
 if (isset($_POST['join'])) {
 	//RECAPTCHA by Google Information
 	
-	$secret = '6Leb0rsUAAAAALdYfDqhXm3JZ-LMbS340KVEwmvI';
+	$secret = '';
 	$response = $_POST["g-recaptcha-response"];
 	$url = "https://www.google.com/recaptcha/api/siteverify";
 	$data = array(
-		'secret' => '6Leb0rsUAAAAALdYfDqhXm3JZ-LMbS340KVEwmvI',
+		'secret' => '',
 		'response' => $_POST["g-recaptcha-response"]
 	);
 	

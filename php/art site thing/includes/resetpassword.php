@@ -7,11 +7,11 @@ include_once 'furworld_datanetwork.php';
 if (isset($_POST['attemptreset'])) {
 	//RECAPTCHA by Google Information
 	
-	$secret = '6Leb0rsUAAAAALdYfDqhXm3JZ-LMbS340KVEwmvI';
+	$secret = '';
 	$response = $_POST["g-recaptcha-response"];
 	$url = "https://www.google.com/recaptcha/api/siteverify";
 	$data = array(
-		'secret' => '6Leb0rsUAAAAALdYfDqhXm3JZ-LMbS340KVEwmvI',
+		'secret' => '',
 		'response' => $_POST["g-recaptcha-response"]
 	);
 	

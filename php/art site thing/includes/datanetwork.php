@@ -2,8 +2,8 @@
 
 /* Database connection settings */
 $host = 'localhost';
-$user = 'testuser';
-$pass = 'password';
-$db = 'fw_bruh';
+$user = '';
+$pass = '';
+$db = '';
 
 $con = mysqli_connect($host, $user, $pass, $db);
