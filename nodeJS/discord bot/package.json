@@ -1,0 +1,16 @@
+{
+  "name": "jsbot",
+  "version": "1.0.0",
+  "description": "A custom bot for something",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aglowingmonitor",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "mongoose": "^5.6.5",
+    "ms": "^2.1.2"
+  }
+}

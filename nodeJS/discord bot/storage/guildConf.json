@@ -1,0 +1,11 @@
+{
+  "prefix": "",
+  "logschannel": "",
+  "welcomemessagechannel": "",
+  "modrole": "",
+  "adminrole": "",
+  "muterole": "",
+  "joinmessage": "has joined. Please read the rules in #rules-and-info",
+  "leavemessage": "has left.",
+  "banmessage": "has been banned. lmao nonce"
+}
