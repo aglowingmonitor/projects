@@ -1,0 +1,10 @@
+c:\users\james\source\repos\CSharpMessing\CSharpMessing\bin\Debug\CSharpMessing.exe.config
+c:\users\james\source\repos\CSharpMessing\CSharpMessing\bin\Debug\CSharpMessing.exe
+c:\users\james\source\repos\CSharpMessing\CSharpMessing\bin\Debug\CSharpMessing.pdb
+c:\users\james\source\repos\CSharpMessing\CSharpMessing\obj\Debug\CSharpMessing.csprojAssemblyReference.cache
+c:\users\james\source\repos\CSharpMessing\CSharpMessing\obj\Debug\CSharpMessing.Form1.resources
+c:\users\james\source\repos\CSharpMessing\CSharpMessing\obj\Debug\CSharpMessing.Properties.Resources.resources
+c:\users\james\source\repos\CSharpMessing\CSharpMessing\obj\Debug\CSharpMessing.csproj.GenerateResource.cache
+c:\users\james\source\repos\CSharpMessing\CSharpMessing\obj\Debug\CSharpMessing.csproj.CoreCompileInputs.cache
+c:\users\james\source\repos\CSharpMessing\CSharpMessing\obj\Debug\CSharpMessing.exe
+c:\users\james\source\repos\CSharpMessing\CSharpMessing\obj\Debug\CSharpMessing.pdb
