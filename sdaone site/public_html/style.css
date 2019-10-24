@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+
+html body{
+	height: 100%;
+	margin: 0;
+}
+
+body{
+	position: relative;
+	background-image: url();
+	background-image: linear-gradient(to right, #da5d12 30%, #ed77de);
+}
+
+.container{
+	background-image: url("backgrnd.svg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+}
+
+.container{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+ 	justify-content: center;
+  	align-items: center;
+	flex-direction: column;
+}
+
+.somebuttons{
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	transition: 0.5s;
+}
+
+
+.linkbtn{
+	width: inherit;
+	height: 45px;
+	border-color: white;
+	border-width: medium;
+	border-radius: 10px;
+	border-style: solid;
+	background: none;
+	
+	/*Font settings*/
+	font-family: 'Montserrat';
+	color: white;
+	font-size: 1vw;
+	transition: 0.5s;
+}
+
+
+.linkbtn:active{
+	background: white;
+	color: black;
+	transition: 0.5s
+}
+
+
+.bruh{
+	font-size: 60px; 
+	color: white; 
+	font-family: 'Montserrat Light', sans-serif;
+	width: 100%;
+	text-align: center;
+	transition: 0.5s;
+}
+
+.twitter{
+	width: 60px;
+	transition: 0.5s;
+}
+
+.bold{
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+@media (max-width: 1305px){
+	.linkbtn{
+	font-size: 1.3vw;
+	transition: 0.5s;
+	
+}
+}
+
+@media (max-width: 776px){
+	.linkbtn{
+	font-size: 1.8vw;
+	transition: 0.5s;
+	
+}
+}
+
+@media (max-width: 420px){
+	.linkbtn{
+	font-size: 3vw;
+	transition: 0.5s;
+	
+}
+}
