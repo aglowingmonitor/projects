@@ -1,0 +1,11 @@
+C:\Users\James\source\repos\Basic Calculator\Basic Calculator\bin\Debug\Basic Calculator.exe.config
+C:\Users\James\source\repos\Basic Calculator\Basic Calculator\bin\Debug\Basic Calculator.exe
+C:\Users\James\source\repos\Basic Calculator\Basic Calculator\bin\Debug\Basic Calculator.pdb
+C:\Users\James\source\repos\Basic Calculator\Basic Calculator\obj\Debug\Basic Calculator.csprojAssemblyReference.cache
+C:\Users\James\source\repos\Basic Calculator\Basic Calculator\obj\Debug\Basic_Calculator.Form1.resources
+C:\Users\James\source\repos\Basic Calculator\Basic Calculator\obj\Debug\Basic_Calculator.Properties.Resources.resources
+C:\Users\James\source\repos\Basic Calculator\Basic Calculator\obj\Debug\Basic Calculator.csproj.GenerateResource.cache
+C:\Users\James\source\repos\Basic Calculator\Basic Calculator\obj\Debug\Basic Calculator.csproj.CoreCompileInputs.cache
+C:\Users\James\source\repos\Basic Calculator\Basic Calculator\obj\Debug\Basic Calculator.exe
+C:\Users\James\source\repos\Basic Calculator\Basic Calculator\obj\Debug\Basic Calculator.pdb
+C:\Users\James\source\repos\Basic Calculator\Basic Calculator\obj\Debug\Basic_Calculator.AboutCalc.resources
