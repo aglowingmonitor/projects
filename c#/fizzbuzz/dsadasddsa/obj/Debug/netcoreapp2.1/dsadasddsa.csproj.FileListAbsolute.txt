@@ -1,0 +1,10 @@
+C:\Users\James\source\repos\dsadasddsa\dsadasddsa\bin\Debug\netcoreapp2.1\dsadasddsa.deps.json
+C:\Users\James\source\repos\dsadasddsa\dsadasddsa\bin\Debug\netcoreapp2.1\dsadasddsa.runtimeconfig.json
+C:\Users\James\source\repos\dsadasddsa\dsadasddsa\bin\Debug\netcoreapp2.1\dsadasddsa.runtimeconfig.dev.json
+C:\Users\James\source\repos\dsadasddsa\dsadasddsa\bin\Debug\netcoreapp2.1\dsadasddsa.dll
+C:\Users\James\source\repos\dsadasddsa\dsadasddsa\bin\Debug\netcoreapp2.1\dsadasddsa.pdb
+C:\Users\James\source\repos\dsadasddsa\dsadasddsa\obj\Debug\netcoreapp2.1\dsadasddsa.csprojAssemblyReference.cache
+C:\Users\James\source\repos\dsadasddsa\dsadasddsa\obj\Debug\netcoreapp2.1\dsadasddsa.AssemblyInfoInputs.cache
+C:\Users\James\source\repos\dsadasddsa\dsadasddsa\obj\Debug\netcoreapp2.1\dsadasddsa.AssemblyInfo.cs
+C:\Users\James\source\repos\dsadasddsa\dsadasddsa\obj\Debug\netcoreapp2.1\dsadasddsa.dll
+C:\Users\James\source\repos\dsadasddsa\dsadasddsa\obj\Debug\netcoreapp2.1\dsadasddsa.pdb
