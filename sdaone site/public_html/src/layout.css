@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    background: linear-gradient(rgba(230,230,230), rgba(255,255,255))
+}
+
+.rainbowcontainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: -1;
+}
+
+.rainbow_back{
+    background: linear-gradient(to right, red, red 14.3%, orange 14.3%, orange 28.6%, yellow 28.6%, yellow 42.9%, green 42.9%, green 57.2%, blue 57.2%, blue 71.5%, indigo 71.5%, indigo 85.8%, violet 85.8%, violet);
+    width: inherit;
+    height: 1.5%;
+}
+
+._maincontainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: row;
+}
+
+.icon{
+    width: 10vw;
+    border-radius: 10%;
+    box-shadow: 0px 5px 5px rgba(0,0,0,.5);
+}
+
+._subcontainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.name{
+    font-size: 2.25vw;
+    font-family: arboria, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.socialbuttons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.socialbtn{
+    width: 10vw;
+    height: 2.5vw;
+    font-size: 1.2vw;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px rgba(0,0,0,.5);
+
+    font-family: arboria, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+@media screen and (max-width:425px) {
+    ._maincontainer{
+        flex-direction: column;
+    }
+
+    .icon{
+        width: 35vw;
+    }
+
+    ._subcontainer{
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .socialbuttons{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .socialbtn{
+        width: 50vw;
+        height: 15vw;
+        font-size: 6vw;
+    }
+
+    .name{
+        font-size: 8vw;
+        text-align: center;
+    }
+}
