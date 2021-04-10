@@ -1,9 +1,13 @@
 #include <iostream>
 #include <string>
-#include <locale>
 #include "Game.h"
 #include "AIFunction.h"
 using namespace std;
+
+//TODO:
+// Validate player inputs (so that they make sense)
+// Make "no" actually work when the game is over and they're asked to play again.
+// Convert player's input into lowercase (why does C++ make this so difficult)
 
 int whoWon(string plrguess, string aiguess) {
 	if (plrguess == aiguess) {
@@ -30,7 +34,7 @@ void startGame(string name)
 	}
 
 	string AIGuess = GetAIGuess();
-	cout << "\n" << AIName << "'s guess was: " << AIGuess;
+	cout << "\n" << AIName << "'s guess was: " << AIGuess << ". ";
 
 	int winner = whoWon(guess, AIGuess);
 	if (winner == 0) {
@@ -49,6 +53,7 @@ void startGame(string name)
 
 	while (inp == "") {
 		cout << endl << "Would you like to play again? [Y/N] ";
+		cin >> inp;
 	}
 
 	if (inp == "y" || "Y") {
