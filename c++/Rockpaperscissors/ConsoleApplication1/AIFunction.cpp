@@ -16,5 +16,6 @@ string GetAIGuess() {
 	string guesses[3] = { "rock", "paper", "scissors" };
 	srand(time(NULL));
 	int rIndex = rand() % 3;
+	rIndex = rand() % 3;
 	return guesses[rIndex];
 }

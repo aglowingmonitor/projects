@@ -140,10 +140,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AIFunction.cpp" />
+    <ClCompile Include="ConvertToLower.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="Launch.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ConvertToLower.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="AIFunction.h" />
   </ItemGroup>

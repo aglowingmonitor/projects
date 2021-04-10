@@ -2,14 +2,12 @@
 #include <string>
 #include "Game.h"
 #include "AIFunction.h"
+#include "ConvertToLower.h"
 using namespace std;
 
-//TODO:
-// Validate player inputs (so that they make sense)
-// Make "no" actually work when the game is over and they're asked to play again.
-// Convert player's input into lowercase (why does C++ make this so difficult)
-
 int whoWon(string plrguess, string aiguess) {
+	plrguess = convertLower(plrguess);
+
 	if (plrguess == aiguess) {
 		return 0; //Draw
 	}
@@ -31,6 +29,12 @@ void startGame(string name)
 	
 	while (guess == "") {
 		cout << "\n[Rock, Paper or Scissors?]: "; cin >> guess;
+		if (convertLower(guess) == "rock" || convertLower(guess) == "paper" || convertLower(guess) == "scissors") {
+			continue;
+		}
+		else {
+			guess = "";
+		}
 	}
 
 	string AIGuess = GetAIGuess();
@@ -56,7 +60,7 @@ void startGame(string name)
 		cin >> inp;
 	}
 
-	if (inp == "y" || "Y") {
+	if (convertLower(inp) == "y") {
 		startGame(name);
 	}
 	else {

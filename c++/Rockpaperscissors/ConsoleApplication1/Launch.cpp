@@ -17,7 +17,7 @@ int main(){
             while (personName == "") {
                 cout << "Enter a name: "; cin >> personName;
             }
-            cout << "Your selected name is: " << personName;
+            cout << "\nYour selected name is: " << personName;
             startGame(personName);
         }
         else if (inp == "2") {
