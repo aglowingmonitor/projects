@@ -1,2 +1,6 @@
-﻿  Game.cpp
+﻿  AIFunction.cpp
+C:\Users\James\Documents\GitHub\projects\c++\Rockpaperscissors\ConsoleApplication1\AIFunction.cpp(10,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\James\Documents\GitHub\projects\c++\Rockpaperscissors\ConsoleApplication1\AIFunction.cpp(17,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Game.cpp
+  Generating Code...
   ConsoleApplication1.vcxproj -> C:\Users\James\Documents\GitHub\projects\c++\Rockpaperscissors\x64\Debug\ConsoleApplication1.exe

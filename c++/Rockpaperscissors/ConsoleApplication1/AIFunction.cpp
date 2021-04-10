@@ -4,7 +4,6 @@
 #include "AIFunction.h"
 using namespace std;
 
-
 string SetAIName() {
 	//This is where names are set OwO
 	string names[7] = { "Jeff", "Jerome", "Jamal", "Graham", "Barbra", "Bertha", "Alfred Pennyworth" };
