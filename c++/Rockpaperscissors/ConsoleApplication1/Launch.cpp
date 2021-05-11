@@ -24,7 +24,6 @@ int main(){
             showRules();
         }
         else if (inp == "3") {
-            cout << "Exit";
             break;
         }
         inp = "";
